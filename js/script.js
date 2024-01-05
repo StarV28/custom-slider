@@ -20,12 +20,3 @@ function initSwiper() {
 initSwiper();
 bindSwipers(slider1, slider2, slider3, slider4);
 //---------------------------------//
-let swiplIst = document.querySelector(".main");
-swiplIst.addEventListener("click", (e) => {
-  if (e.target.closest(".slider__item")) {
-    let slide = e.target.closest(".slider__item");
-    // slide.setAttribute("data-open", "open");
-    console.log(slide);
-  }
-});
-function openFoto() {}

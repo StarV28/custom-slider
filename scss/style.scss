@@ -18,6 +18,7 @@ html {
   height: 100%;
   gap: calc(var(--index) * 2);
   background-color: #000;
+  position: relative;
 }
 .swiper {
 }
@@ -53,9 +54,6 @@ html {
     will-change: transform;
     box-shadow: 10px -15px 15px #fff;
     cursor: pointer;
-    // & article[data-open="open"] {
-    //   background-color: red;
-    // }
 
     img {
       position: absolute;
